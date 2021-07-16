@@ -12,6 +12,7 @@ const About=()=>{
   <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
     </Form>
-    <button className="btn btn-warning"><Link to="/">Back</Link></button></>);
+    <button className="btn btn-lg btn-warning ms-5"><Link to="/" className="text-dec">Back</Link></button>
+    <button className="btn btn-lg btn-warning ms-5">Submit</button></>);
 }
 export default About;
